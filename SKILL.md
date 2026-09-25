@@ -48,6 +48,8 @@ If nothing concrete turns up, the hook is empty. Never invent or generalize a co
 
 Before the code block, show a short scoring summary: each chosen entry, its score, and a one-phrase reason. A few lines, so the user can override the picks.
 
+Situational mentions are never scored and never count as one of the two evidence entries.
+
 ## Step 4: Draft
 
 Paragraph map. The template's fixed `\OPENER` comes first, then four editable values:
@@ -62,6 +64,7 @@ Hard rules:
 - Use a metric only if the entry lists it. Entries marked "no metric" get none.
 - Work listed as planned or in progress is never described as done.
 - Anything under "Never mention" in context.md stays out.
+- Situational mentions: if the posting explicitly emphasizes a trigger listed under "Situational mentions" in context.md, add that fact as one sentence where it fits best, usually the end of `\EVIDENCETWO` or the start of `\CLOSING`. At most one per letter. It counts toward the word limit. Follow the item's Status line. If no trigger is clearly present, use none.
 - Body (hook through closing) totals 250 to 350 words.
 - Every sentence contains a specific noun, number, technology, or named system. Delete any sentence that would fit unchanged in a letter to another company.
 - Apply style.md in full.
@@ -82,7 +85,7 @@ Run before output, report after the code block in a few lines:
 - Nothing outside the SKILL-EDITABLE region differs from the template.
 - Body word count.
 
-Report: archetype used, entries used, word count, and any top requirements with no matching evidence, so the user knows the gaps.
+Report: archetype used, entries used, situational mention used (if any, with the posting phrase that triggered it), word count, and any top requirements with no matching evidence, so the user knows the gaps.
 
 ## Step 7: Revisions
 

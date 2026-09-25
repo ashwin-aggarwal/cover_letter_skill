@@ -79,6 +79,7 @@ The template uses the Source Sans Pro font and the `fontawesome` package for hea
 
 - **Voice:** edit `references/style.md`. Add or remove banned words and constructions to match how you write.
 - **Archetypes:** edit `references/context.md`. Rename, add, or remove role types. Keep the archetype list, the routing matrix columns, and the Archetype voice section in sync.
+- **Situational mentions:** add one-sentence facts under "Situational mentions" in `references/context.md`, each with a trigger. The skill adds at most one per letter, and only when the posting explicitly emphasizes that trigger (for example, learning quickly or implementing research papers).
 - **Layout:** edit `assets/template.tex`. Change fonts, colors, spacing, or the header freely, but keep the USER CONFIG and SKILL-EDITABLE banner comments and the macro names intact. The skill relies on them to know what it may change.
 
 ## Privacy

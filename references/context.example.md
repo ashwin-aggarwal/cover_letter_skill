@@ -110,6 +110,22 @@ Copy the entry block below once per experience. The heading must match the routi
   - Data Eng: [FILL]
   - Data Science: [FILL]
 
+## Situational mentions
+
+Optional one-sentence add-ons. These are not evidence entries: they are never scored and never get their own paragraph. The skill uses at most one per letter, and only when the posting explicitly emphasizes the trigger. Copy an item block per mention.
+
+### <Name>
+
+- Trigger: [FILL: what the posting must emphasize, e.g. learning quickly, implementing research papers]
+- Fact: [FILL: one concrete sentence with a number or named artifact]
+- Status: [FILL: limits on what may be claimed]
+
+### <Name>
+
+- Trigger: [FILL: what the posting must emphasize, e.g. learning quickly, implementing research papers]
+- Fact: [FILL: one concrete sentence with a number or named artifact]
+- Status: [FILL: limits on what may be claimed]
+
 ## Not in the matrix
 
 Optional. Experiences the skill should ignore entirely (too old, not relevant, or superseded).
